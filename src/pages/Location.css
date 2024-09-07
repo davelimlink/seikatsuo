@@ -1,0 +1,47 @@
+.location {
+  background-color: white;
+  height: 45vh;
+  width: 100%;
+}
+
+.location-p p {
+  color:#2d8058;
+  font-size: 40px;
+  font-family: ' Arial';
+  font-weight: bold;
+  border-top-right-radius: 20px;
+  text-align: center;
+}
+
+.location-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-container {
+  width: 90vw;
+  height: 250px;
+  border: 1px solid #2d8058;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.location-dets {
+  width: 30%;
+}
+
+.location-dets h3 {
+  color: #2d8058;
+}
+
+.iframe {
+  width: 70%;
+}
+
+iframe {
+  height: 248px;
+  width: 100%;
+}

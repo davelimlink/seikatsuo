@@ -1,0 +1,30 @@
+.past-events {
+  background-color: #2d8058;
+  height: 10vh;
+  width: 100%;
+}
+
+.past-events-container {
+ display: flex;
+ gap: 20px;
+ padding-top: 30px;
+ margin-left: 20px;
+}
+
+.past-events-p p{
+color: white;
+text-align: center;
+font-size: large;
+font-weight: 900;
+}
+
+.events-year {
+border: 2px solid whitesmoke;
+padding: 0 10px;
+background-color: antiquewhite;
+}
+
+.events-year p {
+  color: #2d8058;
+  font-style: italic;
+}

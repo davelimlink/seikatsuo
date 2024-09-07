@@ -1,0 +1,32 @@
+footer {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+h5 {
+color: rgba(0, 0, 0, 0.557);
+line-height: 25px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.socials img {
+  width: 30px;
+}
+
+hr {
+  width: 80vw;
+  color: black;
+}
+
+.content-design {
+  padding: 10px;
+}
