@@ -1,4 +1,5 @@
 import "./Home.css";
+import homeimg from ".././assets/logo-header.png";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
               <span>SUNDAY</span>
             </h2>
           </div>
-          <img src="./src/assets/logo-header.png" alt="logo" />
+          <img src={homeimg} alt="logo" />
         </div>
         <div className="home-p">
           <h3>荒天の場合は、開催中止となります</h3>
