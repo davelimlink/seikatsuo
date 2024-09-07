@@ -1,4 +1,5 @@
 import "./Artist.css";
+import artist1 from "../assets/a1.png";
 
 const Artist = () => {
   return (
@@ -10,18 +11,12 @@ const Artist = () => {
 
         <div className="artist-container">
           <div className="artist-photo-container">
-            <img
-              src="src/assets/katsuo-photos/artist/0407521_0047 3 - Machiko studio.JPG"
-              alt=""
-            />
+            <img src={artist1} alt="" />
             <p>マチャ</p>
             <p className="insta">Instagram: @lovely_summer_cha</p>
           </div>
           <div className="artist-photo-container">
-            <img
-              src="src/assets/katsuo-photos/artist/clalas_pic - やまうちひかる  くらすず.jpg"
-              alt=""
-            />
+            <img src="" alt="" />
             <p>クララズ</p>
             <p className="insta">Instagram: @clalas_</p>
           </div>

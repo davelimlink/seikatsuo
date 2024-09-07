@@ -1,4 +1,6 @@
 import "./Footer.css";
+import line from "././assets/LINE_Brand_icon.png";
+import insta from "././assets/insta.png";
 
 const Footer = () => {
   const fullYear = new Date().getFullYear();
@@ -12,13 +14,13 @@ const Footer = () => {
       </h5>
       <div className="socials">
         <a href="https://www.instagram.com/_seikatsu_on_/" target="_blank">
-          <img src="src/assets/insta.png" alt="" />
+          <img src={insta} alt="" />
         </a>
         <a
           href="https://line.me/R/ti/p/@012pwpyk?from=page&accountId=012pwpyk"
           target="_blank"
         >
-          <img src="src/assets/LINE_Brand_icon.png" alt="" />
+          <img src={line} alt="" />
         </a>
       </div>
       <hr />
