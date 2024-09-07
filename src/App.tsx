@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import Artist from "./pages/Artist";
