@@ -8,7 +8,7 @@ const Home = () => {
           <div className="home-p">
             <h2>
               2024.10.6
-              <span>SUN</span>
+              <span>SUNDAY</span>
             </h2>
           </div>
           <img src="./src/assets/logo-header.png" alt="logo" />
