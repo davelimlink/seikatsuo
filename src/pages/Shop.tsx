@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
 import "./Shop.css";
+import s1 from "../assets/s1.jpg";
+import s2 from "../assets/s2.jpeg";
+import s3 from "../assets/s3.jpg";
+import s4 from "../assets/s4.jpeg";
+import s5 from "../assets/s5.jpg";
+import s6 from "../assets/s6.jpg";
 
 const Shop = () => {
   return (
@@ -11,7 +17,7 @@ const Shop = () => {
         <div className="shop-main-container">
           <div className="shop-container">
             <div className="shop-img">
-              <img src="src/assets/katsuo-photos/002 - FEEMUE.jpg" alt="" />
+              <img src={s1} alt="" />
               <p>
                 FEEMUE KLONG TOEY <br />
                 タイ最大のスラム 「クロントイ・スラム」発の
@@ -19,17 +25,11 @@ const Shop = () => {
               </p>
             </div>
             <div className="shop-img">
-              <img
-                src="src/assets/katsuo-photos/5D788E80-7B68-42A9-A61D-381C63643DE6 - オーガニック抹茶カフェ和み.jpeg"
-                alt=""
-              />
+              <img src={s2} alt="" />
               <p>オーガニック抹茶カフェ和み</p>
             </div>
             <div className="shop-img">
-              <img
-                src="src/assets/katsuo-photos/7 (1) - 株式会社ラフ.JPG"
-                alt=""
-              />
+              <img src={s3} alt="" />
               <p>
                 Terakoyaラフ <br />
                 まなびと学童保育の Terakoyaラフです。
@@ -37,10 +37,7 @@ const Shop = () => {
               </p>
             </div>
             <div className="shop-img">
-              <img
-                src="src/assets/katsuo-photos/87ｋｉｔｃｈｅｎ.jpeg"
-                alt=""
-              />
+              <img src={s4} alt="" />
               <p>
                 87kitchen
                 <br />
@@ -48,10 +45,7 @@ const Shop = () => {
               </p>
             </div>
             <div className="shop-img">
-              <img
-                src="src/assets/katsuo-photos/20221118_175237 - アゲイン.jpg"
-                alt=""
-              />
+              <img src={s5} alt="" />
               <p>
                 アゲイン
                 <br />
@@ -60,10 +54,7 @@ const Shop = () => {
               </p>
             </div>
             <div className="shop-img">
-              <img
-                src="src/assets/katsuo-photos/20230721_091430~2 - MNKYミンキー.jpg"
-                alt=""
-              />
+              <img src={s6} alt="" />
               <p>
                 MNKY <br />
                 編み小物 デニムリメイクのバッグなど
