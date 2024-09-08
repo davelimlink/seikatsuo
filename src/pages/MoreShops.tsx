@@ -1,6 +1,24 @@
 import { Link } from "react-router-dom";
 import backButton from "../assets/icons8-back-button-100.png";
 import "./MoreShops.css";
+import s7 from "../assets/s7.jpeg";
+import s8 from "../assets/s8.jpeg";
+import s9 from "../assets/s9.jpg";
+import s10 from "../assets/s10.jpeg";
+import s11 from "../assets/s11.png";
+import s12 from "../assets/s12.jpeg";
+import s13 from "../assets/s13.jpeg";
+import s14 from "../assets/s14.jpeg";
+import s15 from "../assets/s15.jpeg";
+import s16 from "../assets/s16.jpg";
+import s17 from "../assets/s17.jpeg";
+import s18 from "../assets/s18.jpeg";
+import s19 from "../assets/s19.jpeg";
+import s20 from "../assets/s20.png";
+import s21 from "../assets/s21.jpg";
+import s22 from "../assets/s22.jpeg";
+import s23 from "../assets/s23.jpeg";
+import s24 from "../assets/s24.jpeg";
 
 const MoreShops = () => {
   return (
@@ -16,7 +34,7 @@ const MoreShops = () => {
       </div>
       <div className="moreshops">
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/antiquegarden.JPEG" alt="" />
+          <img src={s7} alt="" />
           <p>
             Antique Garden
             <br />
@@ -24,15 +42,15 @@ const MoreShops = () => {
           </p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/aoao❀emmaco.JPEG" alt="" />
+          <img src={s8} alt="" />
           <p>aoao❀emmaco</p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/Cafeoおがわ.jpg" alt="" />
+          <img src={s9} alt="" />
           <p>Cafeoおがわ</p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/COCOmone.jpeg" alt="" />
+          <img src={s10} alt="" />
           <p>
             COCOmone
             <br />
@@ -41,17 +59,14 @@ const MoreShops = () => {
           </p>
         </div>
         <div className="more-shops-img">
-          <img
-            src="src/assets/katsuo-photos/EACA7F62-B97D-4414-B525-BB8E4DEF4CD3 - takumi suzuki (miwa).png"
-            alt=""
-          />
+          <img src={s11} alt="" />
           <p>
             miwa moto factory <br />
             レーザー加工
           </p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/elly acce.jpeg" alt="" />
+          <img src={s12} alt="" />
           <p>
             elly accessory
             <br />
@@ -60,10 +75,7 @@ const MoreShops = () => {
         </div>
 
         <div className="more-shops-img">
-          <img
-            src="src/assets/katsuo-photos/IMG_3921 - 松永つぶら  つぶや.jpeg"
-            alt=""
-          />
+          <img src={s13} alt="" />
           <p>
             つぶ屋
             <br />
@@ -71,10 +83,7 @@ const MoreShops = () => {
           </p>
         </div>
         <div className="more-shops-img">
-          <img
-            src="src/assets/katsuo-photos/IMG_8739 - 藤森美智子  RinRIn.jpeg"
-            alt=""
-          />
+          <img src={s14} alt="" />
           <p>
             RinRin
             <br />
@@ -82,7 +91,7 @@ const MoreShops = () => {
           </p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/IMG_8858 -fluffy.jpeg" alt="" />
+          <img src={s15} alt="" />
           <p>
             fluffy <br />
             ドーナツは優しい甘味が広がる、 ふわっと食感を追求しました🍩
@@ -90,10 +99,7 @@ const MoreShops = () => {
           </p>
         </div>
         <div className="more-shops-img">
-          <img
-            src="src/assets/katsuo-photos/inbound7569634815957986395 - チェるびっく.jpg"
-            alt=""
-          />
+          <img src={s16} alt="" />
           <p>
             CHERUBIC PLUS 量り売りと雑貨 <br />
             ナッツや乾物、焼き菓子等 必要なものを必要な分購入できる
@@ -101,7 +107,7 @@ const MoreShops = () => {
           </p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/Kiのむくまま.jpeg" alt="" />
+          <img src={s17} alt="" />
           <p>
             Kiのむくまま <br />
             木の実や小枝を使ったナチュラルで 心温まる木工雑貨を
@@ -109,14 +115,14 @@ const MoreShops = () => {
           </p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/MOCHA.JPEG" alt="" />
+          <img src={s18} alt="" />
           <p>
             MOCHA <br />
             プリザーブドフラワーのアレンジ お花のアクセサリーを つくっています。
           </p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/wannyan.50.jpeg" alt="" />
+          <img src={s19} alt="" />
           <p>
             wannyan.50
             <br />
@@ -124,15 +130,15 @@ const MoreShops = () => {
           </p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/アート体験カフェen.png" alt="" />
+          <img src={s20} alt="" />
           <p>アート体験カフェ</p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/こめこたこやきこばん.jpg" alt="" />
+          <img src={s21} alt="" />
           <p>こめこたこやきこばん</p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/フレンチフライ.jpeg" alt="" />
+          <img src={s22} alt="" />
           <p>
             フレンチフライ <br />
             じゃがいもから手作りしている ベルギースタイルのフレンチフライ です！
@@ -140,8 +146,12 @@ const MoreShops = () => {
           </p>
         </div>
         <div className="more-shops-img">
-          <img src="src/assets/katsuo-photos/一新食堂.jpeg" alt="" />
+          <img src={s23} alt="" />
           <p>一新食堂</p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s24} alt="" />
+          <p>食堂カフェ ぶりこ。</p>
         </div>
       </div>
     </>
