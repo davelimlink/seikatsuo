@@ -1,6 +1,6 @@
 .location {
   background-color: white;
-  height: 45vh;
+  height: 45vh auto;
   width: 100%;
 }
 
@@ -27,6 +27,7 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  margin-bottom: 15px;
 }
 
 .location-dets {
@@ -35,6 +36,7 @@
 
 .location-dets h3 {
   color: #2d8058;
+  font-size: 1rem;
 }
 
 .iframe {
@@ -44,4 +46,11 @@
 iframe {
   height: 248px;
   width: 100%;
+}
+
+
+  @media (max-width: 380px) {
+  .location {
+    margin-bottom: 35px;
+  }
 }

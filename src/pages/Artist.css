@@ -1,6 +1,6 @@
 .artist {
   background-color: #ffffff;
-  height: 48vh;
+  height: 48vh auto;
   width: 100%;
   position: relative;
 }
@@ -41,7 +41,7 @@
   overflow: scroll;
   padding: 10px; 
   gap: 5px;
-  
+
 }
 
 .artist-container {
@@ -50,7 +50,7 @@
   gap: 25px;
   padding-left: 20px;
   overflow: scroll;
-  
+    margin-bottom: 15px;
 }
 
 .artist-photo-container p {
@@ -77,7 +77,13 @@ margin-top: 50px;
 @media (max-width: 820px) {
   .artist-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+  }
+}
+
+@media (max-width: 380px) {
+  .artist-photo-container img {
+    width: 290px;
+    height: 190px;
   }
 }
 
