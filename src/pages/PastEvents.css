@@ -1,30 +1,28 @@
 .past-events {
-  background-color: #2d8058;
-  height: 10vh;
+  background-image: url("../assets/0001.png");
+  height: 15vh auto;
   width: 100%;
-}
-
-.past-events-container {
- display: flex;
- gap: 20px;
- padding-top: 30px;
- margin-left: 20px;
-}
-
-.past-events-p p{
-color: white;
-text-align: center;
-font-size: large;
-font-weight: 900;
+  padding: 10px;
+  text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
 
 .events-year {
 border: 2px solid whitesmoke;
-padding: 0 10px;
+padding: 10px;
 background-color: antiquewhite;
+width: 120px;
 }
 
 .events-year p {
   color: #2d8058;
   font-style: italic;
+}
+
+hr {
+width: 100%;
+  margin:10px;
 }

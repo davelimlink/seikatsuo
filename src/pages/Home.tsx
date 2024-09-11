@@ -1,5 +1,5 @@
 import "./Home.css";
-import homeimg from ".././assets/logo-header.png";
+import seakatsuo from "../assets/0001.png";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
               <span>SUN</span>
             </h2>
           </div>
-          <img src={homeimg} alt="logo" />
+          <img className="img-logo" src={seakatsuo} alt="logo" />
         </div>
         <div className="home-p">
           <h3>荒天の場合は、開催中止となります</h3>

@@ -4,14 +4,17 @@
   background-color: #2d8058;
   padding-bottom: 50px;
 }
-.image img {
-  width: 100%;
-  opacity: 30%;
 
+
+.img-logo {
+  object-fit: contain;
+  width: 100%;
+  padding: -100%;
 }
 
 h3, h2 {
   color: #e9eaca;
+  padding-top: -20px;
 }
 
 .image h2{
@@ -29,8 +32,6 @@ align-items: center;
   text-align: center;
   height: 100%;
   width: 100%;
-
-  top: 50px; 
 }
 
 .image span {

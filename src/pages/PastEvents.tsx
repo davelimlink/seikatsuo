@@ -5,15 +5,13 @@ function PastEvents() {
   return (
     <>
       <div className="past-events">
-        <div className="past-events-container">
-          <div className="past-events-p">
-            <p>Past Events</p>
-          </div>
-          <div className="events-year">
-            <Link to="/lastevents">
-              <p>2023</p>
-            </Link>
-          </div>
+        <p>EVENTS</p>
+        <br />
+
+        <div className="events-year">
+          <Link to="/lastevents">
+            <p>2023.10.01 SUNDAY </p>
+          </Link>
         </div>
       </div>
     </>
