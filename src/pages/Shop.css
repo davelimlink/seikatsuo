@@ -2,6 +2,7 @@
   background-color: #2d8058;
   height: 100%;
   width: 100%;
+  color: antiquewhite;
 }
 .sub-title {
   background-color: #e9eaca;
@@ -37,7 +38,8 @@
 
 .more-link {
   text-align: end;
-  
+  color: antiquewhite;
+  text-decoration: none;
 }
 
 .more-link p {
