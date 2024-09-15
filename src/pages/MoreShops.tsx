@@ -19,6 +19,21 @@ import s21 from "../assets/s21.jpg";
 import s22 from "../assets/s22.jpeg";
 import s23 from "../assets/s23.jpeg";
 import s24 from "../assets/s24.jpeg";
+import s25 from "../assets/s25.png";
+import s26 from "../assets/s26.png";
+import s27 from "../assets/s27.png";
+import s28 from "../assets/s28.png";
+import s29 from "../assets/s29.png";
+import s30 from "../assets/s30.png";
+import s31 from "../assets/s31.png";
+import s32 from "../assets/s32.png";
+import s33 from "../assets/s33.png";
+import s34 from "../assets/s34.png";
+import s35 from "../assets/s35.png";
+import s36 from "../assets/s36.png";
+import s37 from "../assets/s37.png";
+import s38 from "../assets/s38.png";
+import s39 from "../assets/s39.png";
 
 const MoreShops = () => {
   return (
@@ -152,6 +167,128 @@ const MoreShops = () => {
         <div className="more-shops-img">
           <img src={s24} alt="" />
           <p>食堂カフェ ぶりこ。</p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s25} alt="" />
+          <p>
+            chico
+            <br />
+            昨年意匠登録をした猫のがま口 を中心にニット小物と布小物を
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s26} alt="" />
+          <p>
+            horeki cookie
+            <br />
+            植物素材だけでつくる クッキーの販売
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s27} alt="" />
+          <p>
+            GOTO
+            <br />
+            皆様に笑顔になっていただきたく 努力しています。 お立ち寄りの際は是非
+            お越し下さい。
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s28} alt="" />
+          <p>
+            coto coto <br />
+            キャンディバッグ ワークショップ
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s29} alt="" />
+          <p>
+            KOTEMAMA
+            <br />
+            ステンドグラス雑貨&ガラス小物
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s30} alt="" />
+          <p>
+            neu coffee
+            <br />
+            実店舗で大人気のホットドッグ！
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s31} alt="" />
+          <p>
+            rnk
+            <br />
+            宝石のようなヴィンテージボタン アクセサリー
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s32} alt="" />
+          <p>
+            {" "}
+            TANIKU SABO <br />
+            寒くなると紅葉がとても可愛い姿 になります。可愛い寄せ植えと苗
+            をそろえてお待ちしております。
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s33} alt="" />
+          <p>
+            オウルの羽
+            <br />
+            タロットカードで占いをします。
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s34} alt="" />
+          <p>
+            グランプール静波
+            <br />
+            静波ビーチのホットサンド専門店 具沢山のホットサンドと、
+            スパイスポテト販売します。
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s35} alt="" />
+          <p>
+            シェアザスープキッチン
+            <br />
+            清水みなと号 スープと軽食のキッチンカーです。
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s36} alt="" />
+          <p>
+            re.Salt
+            <br />
+            地元袋井や遠州の食材を使用した 料理をジャンル問わず 作っています。
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s37} alt="" />
+          <p>
+            占い空
+            <br />
+            占い空です。わかりやすく丁寧 に鑑定いたします。
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s38} alt="" />
+          <p>
+            手仕事-moeyuu- <br />
+            木工·レザー·ラタンなど 手仕事品
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s39} alt="" />
+          <p>
+            若のすけ
+            <br />
+            安心・安全な素材を使い、 ふんわりもっちりシフォンケーキ
+            とカヌレを販売します。
+          </p>
         </div>
       </div>
     </>
