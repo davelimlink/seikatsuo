@@ -35,6 +35,8 @@ import s37 from "../assets/s37.png";
 import s38 from "../assets/s38.png";
 import s39 from "../assets/s39.png";
 import s40 from "../assets/s40.png";
+import s41 from "../assets/s41.png";
+import s42 from "../assets/s42.png";
 
 const MoreShops = () => {
   return (
@@ -298,6 +300,22 @@ const MoreShops = () => {
             <br />
             北インドから来たシェフが、 化学調味料など使わずに丁寧に
             作り上げます。炭火焼き、揚げ物の インドの一品料理が絶品です。
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s41} alt="" />
+          <p>
+            一新食堂
+            <br />
+            こだわり手作り弁当
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s42} alt="" />
+          <p>
+            サウンドイシカワ
+            <br />
+            島田市の楽器店 サウンドイシカワです♪
           </p>
         </div>
       </div>
