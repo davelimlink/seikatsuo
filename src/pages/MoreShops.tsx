@@ -34,6 +34,7 @@ import s36 from "../assets/s36.png";
 import s37 from "../assets/s37.png";
 import s38 from "../assets/s38.png";
 import s39 from "../assets/s39.png";
+import s40 from "../assets/s40.png";
 
 const MoreShops = () => {
   return (
@@ -288,6 +289,15 @@ const MoreShops = () => {
             <br />
             安心・安全な素材を使い、 ふんわりもっちりシフォンケーキ
             とカヌレを販売します。
+          </p>
+        </div>
+        <div className="more-shops-img">
+          <img src={s40} alt="" />
+          <p>
+            シヴァのカレー
+            <br />
+            北インドから来たシェフが、 化学調味料など使わずに丁寧に
+            作り上げます。炭火焼き、揚げ物の インドの一品料理が絶品です。
           </p>
         </div>
       </div>
