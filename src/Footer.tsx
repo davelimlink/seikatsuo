@@ -11,7 +11,7 @@ const Footer = () => {
         <br />
         後援 | 島田市役所 観光課
         <br />
-        TEL | 070-5408-5247 MAIL | seikatsuon_marche@outlook.jp <br />
+        MAIL | seikatsuon_marche@outlook.jp <br />
       </h5>
       <div className="socials">
         <a href="https://www.instagram.com/_seikatsu_on_/" target="_blank">

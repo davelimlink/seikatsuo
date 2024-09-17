@@ -14,7 +14,7 @@
   font-size: 40px;
   font-family: ' Arial';
   font-weight: bold;
-  padding: 15px;
+  padding-top: 15px;
   border-top-right-radius: 20px;
   font-style: italic;
   text-align: center;
@@ -23,15 +23,15 @@
 .shop-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 30px 10px;
-  row-gap: 5px;
-  column-gap: 5px;
+  padding: 30px 20px;
+  row-gap: 8px;
+  column-gap: 8px;
   
 }
 
 .shop-container .shop-img {
   background-color: #e9eaca39;
-  height: 200px;
+  height: 300px;
   border:  none;
   position: relative;
 }

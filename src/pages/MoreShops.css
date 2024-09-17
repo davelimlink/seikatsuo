@@ -4,14 +4,14 @@
   background-color: #2c7c5b;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 5px;
-  column-gap: 5px;
-  padding: 30px;
+  row-gap: 8px;
+  column-gap: 8px;
+  padding: 30px 20px;
   color: antiquewhite;
 }
 .moreshops .more-shops-img {
   background-color: rgba(240, 248, 255, 0.349);
-  height: 200px;
+  height: 250px;
 }
 
 .moreshops-back-btn {

@@ -1,5 +1,5 @@
 import "./Home.css";
-import seakatsuo from "../assets/0001.png";
+import seakatsuo from "../assets/0002.png";
 
 const Home = () => {
   return (
