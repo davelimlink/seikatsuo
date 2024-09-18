@@ -56,16 +56,19 @@
 }
 
 .artist-photo-container p {
-  background-color: #2c7c5b;
+  background-color: #2c7c5be1;
   margin-bottom: 2px;
   width: 100px;
   text-align: center;
+  font-weight: 900;
+  border-radius: 10px;
 }
 
 .artist-photo-container .insta {
-  background-color: #d15746;
-  width: 250px;
-  padding: 2px;
+  background-color: #d15646;
+  width: 255px;
+  padding: 5px 3px;
+  font-weight: 500;
 }
 
 .artist-photo-container img {
