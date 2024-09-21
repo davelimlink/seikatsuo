@@ -7,7 +7,9 @@ const Footer = () => {
   return (
     <footer>
       <h5>
-        主催| Enternaling
+        主催｜ エステサロン
+        <br />
+        Beautiful Hearts . Enterling
         <br />
         後援 | 島田市役所 観光課
         <br />
