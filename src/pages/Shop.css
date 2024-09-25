@@ -2,6 +2,7 @@
   background-color: #2d8058;
   height: 100%;
   width: 100%;
+  padding-bottom: 30px;
   color: antiquewhite;
 }
 .sub-title {
@@ -23,8 +24,8 @@
 .shop-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 30px 20px;
-  row-gap: 8px;
+  padding: 0px 20px;
+  row-gap: 100px;
   column-gap: 8px;
   
 }
@@ -37,15 +38,18 @@
 }
 
 .more-link {
-  text-align: end;
-  color: antiquewhite;
-  text-decoration: none;
+  margin-right: 30px;
+text-align: end;
+padding-top: 120px;
+
 }
 
 .more-link p {
-  padding-bottom: 10px;
-  padding-right: 15px;
+ text-decoration: none;
+color: antiquewhite;
+ font-size: large;
   font-style: italic;
+ font-weight: bold;
 }
 
 .shop-img img {
@@ -55,11 +59,12 @@
 }
 
 .shop-img p {
-  position: absolute;
-  top: 0px;
-  background-color: rgba(0, 0, 0, 0.279);
+ 
+  background-color: rgba(0, 0, 0, 0.377);
   width: 100%;
-  padding: 5px;
+  padding: 15px;
+  height: 90px;
+  margin-top: -5px;
 }
 
 @media (max-width: 800px) {

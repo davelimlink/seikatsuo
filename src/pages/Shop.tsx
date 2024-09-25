@@ -61,12 +61,12 @@ const Shop = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div className="more-link">
-          <Link to="/moreshops">
-            {" "}
-            <p>More shops</p>
-          </Link>
+          <div className="more-link">
+            <Link to="/moreshops">
+              {" "}
+              <p>More shops</p>
+            </Link>
+          </div>
         </div>
       </div>
     </>
