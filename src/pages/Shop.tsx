@@ -22,7 +22,7 @@ const Shop = () => {
               <div className="shops-info">
                 <div className="name">FEEMUE KLONG TOEY</div>
                 <div className="shop-insta">
-                  <a href="">
+                  <a href="https://www.instagram.com/feemue_volunteer/">
                     <img src={insta2} alt="" />
                   </a>
                 </div>
@@ -33,7 +33,7 @@ const Shop = () => {
               <div className="shops-info">
                 <div className="name">オーガニック抹茶カフェ和み</div>
                 <div className="shop-insta">
-                  <a href="">
+                  <a href="https://www.instagram.com/organicmatchacafe_nagomi/">
                     <img src={insta2} alt="" />
                   </a>
                 </div>
@@ -44,7 +44,7 @@ const Shop = () => {
               <div className="shops-info">
                 <div className="name">Terakoyaラフ</div>
                 <div className="shop-insta">
-                  <a href="">
+                  <a href="https://www.instagram.com/laugh_shizuoka/">
                     <img src={insta2} alt="" />
                   </a>
                 </div>
@@ -55,7 +55,7 @@ const Shop = () => {
               <div className="shops-info">
                 <div className="name">87kitchen</div>
                 <div className="shop-insta">
-                  <a href="">
+                  <a href="https://www.instagram.com/87kitchen._/">
                     <img src={insta2} alt="" />
                   </a>
                 </div>
@@ -66,7 +66,7 @@ const Shop = () => {
               <div className="shops-info">
                 <div className="name">アゲイン</div>
                 <div className="shop-insta">
-                  <a href="">
+                  <a href="https://www.instagram.com/againshop2022/">
                     <img src={insta2} alt="" />
                   </a>
                 </div>
@@ -77,7 +77,7 @@ const Shop = () => {
               <div className="shops-info">
                 <div className="name">MNKY</div>
                 <div className="shop-insta">
-                  <a href="">
+                  <a href="https://www.instagram.com/mnky821/">
                     <img src={insta2} alt="" />
                   </a>
                 </div>
