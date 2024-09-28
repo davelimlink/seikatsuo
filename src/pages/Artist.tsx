@@ -3,7 +3,6 @@ import artist1 from "../assets/a1.png";
 import artist2 from "../assets/a2.jpg";
 import artist3 from "../assets/a3.jpg";
 import artist4 from "../assets/a4.jpg";
-import instagram from "././assets/insta.png";
 
 const Artist = () => {
   return (
