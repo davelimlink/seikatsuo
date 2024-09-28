@@ -3,6 +3,7 @@ import artist1 from "../assets/a1.png";
 import artist2 from "../assets/a2.jpg";
 import artist3 from "../assets/a3.jpg";
 import artist4 from "../assets/a4.jpg";
+import insta1 from "../assets/insta.png";
 
 const Artist = () => {
   return (
@@ -22,11 +23,7 @@ const Artist = () => {
                   href="https://www.instagram.com/lovely_summer_cha/"
                   target="_blank"
                 >
-                  <img
-                    className="insta-img"
-                    src="src/assets/insta.png"
-                    alt=""
-                  />
+                  <img className="insta-img" src={insta1} alt="" />
                 </a>
               </div>
             </div>
@@ -38,11 +35,7 @@ const Artist = () => {
                 <div className="a-name">クララズ</div>
                 <div>
                   <a href="https://www.instagram.com/clalas_/" target="_blank">
-                    <img
-                      className="insta-img"
-                      src="src/assets/insta.png"
-                      alt=""
-                    />
+                    <img className="insta-img" src={insta1} alt="" />
                   </a>
                 </div>
               </div>
@@ -58,11 +51,7 @@ const Artist = () => {
                     href="https://www.instagram.com/miduki02gr/"
                     target="_blank"
                   >
-                    <img
-                      className="insta-img"
-                      src="src/assets/insta.png"
-                      alt=""
-                    />
+                    <img className="insta-img" src={insta1} alt="" />
                   </a>
                 </div>
               </div>
@@ -79,11 +68,7 @@ const Artist = () => {
                     href="https://www.instagram.com/kudomasso/"
                     target="_blank"
                   >
-                    <img
-                      className="insta-img"
-                      src="src/assets/insta.png"
-                      alt=""
-                    />
+                    <img className="insta-img" src={insta1} alt="" />
                   </a>
                 </div>
               </div>
