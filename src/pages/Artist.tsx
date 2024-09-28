@@ -3,6 +3,7 @@ import artist1 from "../assets/a1.png";
 import artist2 from "../assets/a2.jpg";
 import artist3 from "../assets/a3.jpg";
 import artist4 from "../assets/a4.jpg";
+import instagram from "././assets/insta.png";
 
 const Artist = () => {
   return (
@@ -13,35 +14,80 @@ const Artist = () => {
         </div>
 
         <div className="artist-container">
-          <div className="artist-photo-containers">
-            <div className="artist-photo-container">
-              <img src={artist1} alt="" />
-              <p>マチャ</p>
-              <p className="insta">Instagram: @lovely_summer_cha</p>
+          <div className="artist-photo-container">
+            <img src={artist1} alt="" />
+            <div className="artist-name-social">
+              <div className="a-name">マチャ</div>
+              <div>
+                <a
+                  href="https://www.instagram.com/lovely_summer_cha/"
+                  target="_blank"
+                >
+                  <img
+                    className="insta-img"
+                    src="src/assets/insta.png"
+                    alt=""
+                  />
+                </a>
+              </div>
             </div>
           </div>
-
           <div className="artist-photo-containers">
             <div className="artist-photo-container">
               <img src={artist2} alt="" />
-              <p>クララズ</p>
-              <p className="insta">Instagram: @clalas_</p>
+              <div className="artist-name-social">
+                <div className="a-name">クララズ</div>
+                <div>
+                  <a href="https://www.instagram.com/clalas_/" target="_blank">
+                    <img
+                      className="insta-img"
+                      src="src/assets/insta.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-
           <div className="artist-photo-containers">
             <div className="artist-photo-container">
               <img src={artist3} alt="" />
-              <p>遠藤美月</p>
-              <p className="insta">Instagram: @miduki02gr</p>
+              <div className="artist-name-social">
+                <div className="a-name">遠藤美月</div>
+                <div>
+                  <a
+                    href="https://www.instagram.com/miduki02gr/"
+                    target="_blank"
+                  >
+                    <img
+                      className="insta-img"
+                      src="src/assets/insta.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
           <div className="artist-photo-containers">
             <div className="artist-photo-container">
               <img src={artist4} alt="" />
-              <p>工藤将也</p>
-              <p className="insta">Instagram: @kudomasso</p>
+              <div className="artist-name-social">
+                <div className="a-name">工藤将也</div>
+                <div>
+                  <a
+                    href="https://www.instagram.com/kudomasso/"
+                    target="_blank"
+                  >
+                    <img
+                      className="insta-img"
+                      src="src/assets/insta.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
