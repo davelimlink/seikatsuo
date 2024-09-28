@@ -212,7 +212,7 @@ const MoreShops = () => {
           <div className="shops-info">
             <div className="name">こめこたこやきこばん</div>
             <div className="shop-insta">
-              <a href="">
+              <a href="https://www.instagram.com/koban.tako/">
                 <img src={insta2} alt="" />
               </a>
             </div>
