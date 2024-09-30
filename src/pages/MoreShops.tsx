@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import backButton from "../assets/icons8-back-button-100.png";
 import "./MoreShops.css";
 import s7 from "../assets/s7.jpeg";
-import s8 from "../assets/s8.jpeg";
+import s8 from "../assets/s88.png";
 import s9 from "../assets/s9.jpg";
 import s10 from "../assets/s10.jpeg";
 import s11 from "../assets/s11.png";
